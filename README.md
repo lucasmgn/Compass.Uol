@@ -18,6 +18,7 @@
  <p>O Scrum Team é um time de pessoas como dito acima, ele é composto a partir da inteligência coletiva, cada membro do time tem suas funções, são elas Developers, Product Owner e Scrum Master. Os Developers tem o compromisso de agregar a cada Sprint, criar o plano para o Sprint e pro Backlog. O Product Owner tem a responsabilidade de fazer o gerenciamento do Product Backlog com a finalidade de maximizar os resultados. Por fim o Scrum Master, basicamente tem a maior responsabilidade, já que ele é encarregado da eficácia do Scrum Team.
  <p>O funcionamento do Scrum é composto por Eventos, são eles: Sprint que é considerado o ‘coração’ do scrum, basicamente é um ciclo de trabalho que possui um tempo predefinido para ser concluído, ao final dele é necessário que o produto tenha tido um incremento notável aos olhos do cliente. Sprint Planning trata-se de uma reunião de planejamento, onde é definida as prioridades do Product Backlog. Daily Scrum é uma reunião de 15 minutos com o objetivo de melhorar a comunicação, identificar os impedimentos para concluir alguma tarefa, tomada de decisão, diminuindo a necessidade de reuniões desnecessárias. Sprint Review é uma reunião que revisa o que ocorreu ao final de cada Sprint, nela estão presentes o Scrum Team e o cliente, tendo um feedback da Sprint. Sprint Retrospective tem o objetivo de revisar com o Scrum Team tudo o que foi feito de forma correta ou errado na Sprint, buscando melhoria e análise do trabalho.
 
+
 3. José iniciou sua jornada recentemente com git e não está conseguindo
    publicar seu arquivo README e a classe Product.js que acabou de criar. O
    erro do git dá a seguinte informação:
@@ -32,3 +33,8 @@ Por que esse “erro” de “Untracked files” ocorreu e qual comando resolver
 o problema?
 
 Esse problema aconteceu porque esses arquivos não foram versionados pelo Git, o comando "git add "nome do arquivo" fazendo um arquivo por vez ou "git add .", para adicionar todos os arquivos no repositorio, eliminando esses erros.
+
+
+4. O time de desenvolvimento analisou e descobriu que o projeto está gerando arquivos pesados e desnecessários para serem commitados no repositório git. Em qual arquivo você deve incluir a lista de extensões para que esses arquivos desnecessários sejam desconsiderados?
+
+Será criado um arquivo chamado ".gitignore" que fará o rastreio desses arquivos, nele será contido os arquivos idesejáveis, por exemplo ".idea/workspace.xml" que são arquivos de configurações pessoais da IDE.
