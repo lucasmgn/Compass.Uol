@@ -38,3 +38,7 @@ Esse problema aconteceu porque esses arquivos não foram versionados pelo Git, o
 4. O time de desenvolvimento analisou e descobriu que o projeto está gerando arquivos pesados e desnecessários para serem commitados no repositório git. Em qual arquivo você deve incluir a lista de extensões para que esses arquivos desnecessários sejam desconsiderados?
 
 Será criado um arquivo chamado ".gitignore" que fará o rastreio desses arquivos, nele será contido os arquivos idesejáveis, por exemplo ".idea/workspace.xml" que são arquivos de configurações pessoais da IDE.
+
+5. José foi promovido de seu cargo anterior e se tornou o novo Product Owner do time, quais são suas novas responsabilidades como PO?
+
+Ele se tornará responsável pela transparência e compreensão do Product Backlog, maximizar o valor do produto de acordo com o trabalho do Scrum Team, gerenciamento do Product Backlog é outra atividade fundamental,  domínio sobre os itens do Product Backlog, podendo delegar essas tarefas para outros membros, mas mantendo sua responsabilidade sobre o Product Backlog.
