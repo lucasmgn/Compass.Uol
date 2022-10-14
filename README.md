@@ -42,3 +42,16 @@ Será criado um arquivo chamado ".gitignore" que fará o rastreio desses arquivo
 5. José foi promovido de seu cargo anterior e se tornou o novo Product Owner do time, quais são suas novas responsabilidades como PO?
 
 Ele se tornará responsável pela transparência e compreensão do Product Backlog, maximizar o valor do produto de acordo com o trabalho do Scrum Team, gerenciamento do Product Backlog é outra atividade fundamental,  domínio sobre os itens do Product Backlog, podendo delegar essas tarefas para outros membros, mas mantendo sua responsabilidade sobre o Product Backlog.
+
+6. Escreva um programa Java que tem como objetivo ser um quiz de
+   perguntas e respostas. Na tela, você perguntará ao usuário e ele
+   responderá. Se o usuário acertar ou errar, você precisa informar se ele
+   acertou ou errou e passar para próxima pergunta (enquanto houver
+   próxima). Utilizem array para guardar as perguntas e respostas. Na tela
+   perguntará ao usuário o nome, e por vez assim as perguntas, caso o
+   usuário acerte ele demonstre os erros e acertos (como no exemplo abaixo):
+   Usuário XPTO:
+   Acertos: 6
+   Erros:4
+
+O programa foi construído para funcionar como um quiz convencional, consiste em 3 perguntas bem simples, existem 2 jogadores dentro do sistemas, são eles: magno e marcelo, você pode utilizar a matricula de um deles para poder jogar com esse dois usuários, como também a liberdade de criar um usuário seu, basta colocar uma matricula diferente das que estão cadastradas e o sistema pedirá seu nome antes de iniciar o quiz, existirá 3 opções no jogo, a opção de Jogar, Ver Resultados e Sair, seguindo o layout especificado, espero que vocês se divirtam!!
