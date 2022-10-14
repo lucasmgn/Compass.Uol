@@ -10,16 +10,13 @@ public class Pergunta {
         return pergunta;
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public Pergunta(Long id, String pergunta, String resposta) {
         this.id = id;
         this.pergunta = pergunta;
         this.resposta = resposta;
     }
 
+    //Metodo para validar se a resposta está correta
     public boolean isRespostaCorreta(String resposta){
         return this.resposta.equalsIgnoreCase(resposta);
     }

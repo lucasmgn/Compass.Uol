@@ -19,10 +19,12 @@ public class Usuario {
         return matricula;
     }
 
+    //incrementando acertos
     public void incrementoAcertos(){
         this.acertos++;
     }
 
+    //incrementando erros
     public void incrementoErros(){
         this.erros++;
     }

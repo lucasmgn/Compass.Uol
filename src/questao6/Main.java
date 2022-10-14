@@ -58,6 +58,7 @@ public class Main{
         }
     }
 
+    //interface do game
     private static void interfaceQuiz() {
 
         System.out.println("\nOlá usuário, abaixo tem as opções do Compass.Quiz");
@@ -69,6 +70,7 @@ public class Main{
         System.out.println("==================================================================================");
     }
 
+    //implementando usuarios fixos com a interface Map
     private static void usuariosFixos(Map<Long, Usuario> usuarios) {
 
         Usuario usuarioRaiz1 = new Usuario(1L, "magno");
@@ -78,6 +80,7 @@ public class Main{
         usuarios.put(2L, usuarioRaiz2);
     }
 
+    //cadastrando usuários
     private static void cadastrarUsuarios(BufferedReader reader, Map<Long, Usuario> usuarios, List<Pergunta> perguntasERespostas)
             throws Exception {
 
@@ -90,6 +93,7 @@ public class Main{
 
         Usuario usuarioSalvo = usuarios.get(matricula);
 
+        //caso não exista usuário com essa matricula, ele será cadastrado, já que a Key é a matricula
         if (usuarioSalvo == null){
             System.out.print("\nPor Favor informe o nome do usuário:");
 
@@ -100,9 +104,11 @@ public class Main{
 
         }
 
+        //chamada do método para iniciar o game
         listarPerguntasRespostasQuiz(reader, perguntasERespostas, usuarioSalvo);
     }
 
+//  Perguntas e respostas criadas dentro da mesma classe, com o intuido de facilitar, evitando de criar outras listas ou Maps
     private static void perguntasERespostasQuiz(List<Pergunta> perguntasERespostas) {
         Pergunta pergunta1 = new Pergunta(1L, "Qual a linguagem de programação tem o nome baseado em um grão de café?", "java");
         Pergunta pergunta2 = new Pergunta(2L, "Qual o nome do personagem principal da franquia Dragon Ball Z?", "goku");
@@ -113,6 +119,7 @@ public class Main{
         perguntasERespostas.add(pergunta3);
     }
 
+    //Método criado para validar as respostas do usuário com a resposta correta, e incrementar os erros e acertos
     private static void listarPerguntasRespostasQuiz(BufferedReader reader,List<Pergunta> perguntasERespostas, Usuario usuario) throws IOException {
         int questao = 1;
 
@@ -137,6 +144,7 @@ public class Main{
         }
     }
 
+    //Imprimindo lista de usuários, com o resultados
     private static void verResultados(Map<Long, Usuario> usuarios) {
         for (Long key : usuarios.keySet()) {
             Usuario value = usuarios.get(key);
