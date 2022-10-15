@@ -81,3 +81,32 @@ O programa foi construído para funcionar como um quiz convencional, consiste em
    “Usuário e/ou senha incorretos.”
  
 O programa foi criado para validar um usuario e senha, utilizei o cpf como identificador, o programa terá dois usuários já cadastrados, podendo criar outros e logar neles, espero que gostem!! :)
+
+<bre><br>
+
+8. Escreva um programa Java que tem como objetivo validar se um
+   determinado funcionário tem direito a bonificação. O programa precisa
+   receber a quantidade de funcionários que serão cadastrados e após isso, o
+   programa deve armazenar o nome e o salário de cada funcionário. Se o
+   usuário receber até R$ 1000,00 reais, receberá 20% de bonificação. Se
+   receber acima de 1000 e menos que 2000, recebe 10%. Se for acima de
+   2000, em vez de bonificação, o funcionário terá um desconto de 10%. No
+   fim do programa, deverá ter uma saída com os nomes dos funcionários,
+   salário, bônus ou desconto e salário líquido. (Utilizem arrays para
+   armazenar os dados.)
+<br>
+   Exemplo:
+   <p>• Funcionário XPTO
+   <p>• Salário: 1200,00
+   <p>• Bônus: 120,00
+   <p>• Salário Líquido: 1320,00
+   <p>• Funcionário XYZ
+   <p>• Salário: 3000,00
+   <p>• Desconto: 300,00
+   <p>• Salário Líquido: 2700,00
+   <p>• Funcionário ABC
+   <p>• Salário: 700,00
+   <p>• Bônus: 140,00
+   <p>• Salário Líquido: 840,00
+
+Além de desnevolver esse programa eu me desafiei, passei algum tempo estudando e testando a class BigDecimal, já tinha ouvindo professores dizendo que ela é ideal para trabalhar com valores. O Programa consiste em um sistema de cadastro, onde o usuário cadastra funcionários, entrando com seu nome e salário, depois o programa fará um calculo onde aplicar uma bonificação ou um desconto desse usuário conforme o especificado
